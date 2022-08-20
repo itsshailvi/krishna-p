@@ -1,0 +1,38 @@
+.header{
+    background-color: #b3b3ff;
+    height: 80px;
+    display: flex;
+    justify-content:start;
+    align-items: center
+}
+
+.header-icons{
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+
+.header-hamburger{
+    background-color: #b3b3ff;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: -100;
+    top: 33px;
+    transition: 850ms;
+}
+
+.header-hamburger-active{
+    left: 0;
+    transition: 350ms
+}
+
+.header-text{
+    display:none;
+    justify-content: start;
+    visibility: hidden;
+
+
+}
